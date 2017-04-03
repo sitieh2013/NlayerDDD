@@ -1,0 +1,4 @@
+D:\Project\NlayerDDD\Application.UnitOfWork\bin\Debug\Application.UnitOfWork.dll
+D:\Project\NlayerDDD\Application.UnitOfWork\bin\Debug\Application.UnitOfWork.pdb
+D:\Project\NlayerDDD\Application.UnitOfWork\obj\Debug\Application.UnitOfWork.dll
+D:\Project\NlayerDDD\Application.UnitOfWork\obj\Debug\Application.UnitOfWork.pdb

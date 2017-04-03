@@ -1,0 +1,5 @@
+D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.UnitOfWork.dll
+D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.UnitOfWork.pdb
+D:\Project\NlayerDDD\Domain.UnitOfWork\obj\Debug\Domain.UnitOfWork.csprojResolveAssemblyReference.cache
+D:\Project\NlayerDDD\Domain.UnitOfWork\obj\Debug\Domain.UnitOfWork.dll
+D:\Project\NlayerDDD\Domain.UnitOfWork\obj\Debug\Domain.UnitOfWork.pdb

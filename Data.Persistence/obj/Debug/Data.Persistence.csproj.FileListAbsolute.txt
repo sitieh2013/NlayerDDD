@@ -1,0 +1,4 @@
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Data.Persistence.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Data.Persistence.pdb
+D:\Project\NlayerDDD\Data.Persistence\obj\Debug\Data.Persistence.dll
+D:\Project\NlayerDDD\Data.Persistence\obj\Debug\Data.Persistence.pdb

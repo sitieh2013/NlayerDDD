@@ -1,0 +1,4 @@
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Repository.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Repository.pdb
+D:\Project\NlayerDDD\Data.Repository\obj\Debug\Data.Repository.dll
+D:\Project\NlayerDDD\Data.Repository\obj\Debug\Data.Repository.pdb

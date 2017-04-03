@@ -1,0 +1,5 @@
+D:\Project\NlayerDDD\Domain.Entities\bin\Debug\Domain.Entities.dll
+D:\Project\NlayerDDD\Domain.Entities\bin\Debug\Domain.Entities.pdb
+D:\Project\NlayerDDD\Domain.Entities\obj\Debug\Domain.Entities.csprojResolveAssemblyReference.cache
+D:\Project\NlayerDDD\Domain.Entities\obj\Debug\Domain.Entities.dll
+D:\Project\NlayerDDD\Domain.Entities\obj\Debug\Domain.Entities.pdb
