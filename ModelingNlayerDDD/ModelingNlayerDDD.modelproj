@@ -27,4 +27,51 @@
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Dependency\Application.Dependency.csproj">
+      <Name>Application.Dependency</Name>
+      <Project>{c3c1254c-f2d9-4256-9c69-e755f22b8510}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Application.UnitOfWork\Application.UnitOfWork.csproj">
+      <Name>Application.UnitOfWork</Name>
+      <Project>{fd3b4176-1943-4862-aec0-7a9d05dd0e0e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Persistence\Data.Persistence.csproj">
+      <Name>Data.Persistence</Name>
+      <Project>{f0a6edf1-171a-4340-a0f8-6a48d12766b7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Repository\Data.Repository.csproj">
+      <Name>Data.Repository</Name>
+      <Project>{1b51755d-47f6-46b3-bcba-878d67b65c4d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.Core\Domain.Core.csproj">
+      <Name>Domain.Core</Name>
+      <Project>{87d426b4-60fa-40dc-bfe1-9e37ecc8a673}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj">
+      <Name>Domain.Entities</Name>
+      <Project>{d9faca9f-33b2-45b4-838a-749a4aaaba9e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.Repository\Domain.Repository.csproj">
+      <Name>Domain.Repository</Name>
+      <Project>{764f54bb-c1e6-43f4-bb13-48474d2f8255}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.UnitOfWork\Domain.UnitOfWork.csproj">
+      <Name>Domain.UnitOfWork</Name>
+      <Project>{6ba9fe43-236c-49ab-81f1-ef600e0e5bde}</Project>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

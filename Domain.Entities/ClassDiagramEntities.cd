@@ -51,9 +51,9 @@
       <FileName>Risks.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Property Name="MyProject" />
       <Property Name="MyImpart" />
       <Property Name="MyProbability" />
-      <Property Name="MyProject" />
     </ShowAsAssociation>
   </Class>
   <Class Name="Domain.Entities.Project" Collapsed="true">

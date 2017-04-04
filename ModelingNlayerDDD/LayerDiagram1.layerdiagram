@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4732fdba-f9a4-4a17-8fe3-4ad2b97d14f3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="badd55ca-cccb-4e23-94a0-a2148f546695" name="Presentation" />
+    <layer Id="b0c29c18-6564-4843-978d-a1a6dd73c41c" name="Domain">
+      <childLayers>
+        <layer Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" name="Domain.Core">
+          <references>
+            <reference Id="01e36644-924a-4006-a28a-b0a3c5795f4e" name="Domain.Core">
+              <ArtifactNode Label="Domain.Core" Category="CodeSchema_Project" Id="(Assembly=../Domain.Core/Domain.Core.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Domain.Core)" Label="Domain.Core.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" name="Domain.Entities">
+          <references>
+            <reference Id="2559cbdf-c12d-4a47-9bdf-551c3b5e9b1b" name="Domain.Entities">
+              <ArtifactNode Label="Domain.Entities" Category="CodeSchema_Project" Id="(Assembly=../Domain.Entities/Domain.Entities.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Domain.Entities)" Label="Domain.Entities.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="aa9a1a2f-2e1a-4af9-b946-e53a14493079" name="Domain.Repository">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="68a6d202-465c-4abb-a2db-6873db4b6948" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="7310e81d-c512-428f-b544-cb6bd550ce86" name="Domain.Repository">
+              <ArtifactNode Label="Domain.Repository" Category="CodeSchema_Project" Id="(Assembly=../Domain.Repository/Domain.Repository.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Domain.Repository)" Label="Domain.Repository.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="a5871e9e-040c-409d-ba0f-83f2a30c4732" name="Domain.UnitOfWork">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="4e9d1a3c-b5c7-4bb5-bb7c-ff30790865b6" direction="Forward">
+              <layerMoniker Id="aa9a1a2f-2e1a-4af9-b946-e53a14493079" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="bf2fae6b-b416-4d4c-a374-ab77acf82ffe" name="Domain.UnitOfWork">
+              <ArtifactNode Label="Domain.UnitOfWork" Category="CodeSchema_Project" Id="(Assembly=../Domain.UnitOfWork/Domain.UnitOfWork.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Domain.UnitOfWork)" Label="Domain.UnitOfWork.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="6345bed3-a90e-488b-a095-4fc9305ed303" name="Data">
+      <childLayers>
+        <layer Id="89638cb1-3740-4d75-9713-3da699f195ab" name="Data.Persistence">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="ab95aba8-fc44-4141-bc8c-a7509e3e07e7" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="ba35de8a-9027-4a3d-bdad-f70a2ea57f5a" name="Data.Persistence">
+              <ArtifactNode Label="Data.Persistence" Category="CodeSchema_Project" Id="(Assembly=../Data.Persistence/Data.Persistence.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Data.Persistence)" Label="Data.Persistence.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="377ca91c-ae23-4d0c-8d89-7f6e7156fb59" name="Data.Repository">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="c2b00035-b64e-40ff-9109-e82841903d98" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="c07ef9f8-4677-48f8-b5bb-1146d63c13df" direction="Forward">
+              <layerMoniker Id="aa9a1a2f-2e1a-4af9-b946-e53a14493079" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="23b3dfc5-f7f6-42aa-80eb-984a910625cf" direction="Forward">
+              <layerMoniker Id="89638cb1-3740-4d75-9713-3da699f195ab" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="2a64f94e-da16-474a-b50d-14ebfa1ce97f" name="Data.Repository">
+              <ArtifactNode Label="Data.Repository" Category="CodeSchema_Project" Id="(Assembly=../Data.Repository/Data.Repository.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Data.Repository)" Label="Data.Repository.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="d7f48423-b9a7-46b1-8ef8-3472a2a1f920" name="Application">
+      <childLayers>
+        <layer Id="9cb1d5bd-0962-4c81-aa27-794267d98e91" name="Application.Dependency">
+          <references>
+            <reference Id="ec522a93-e768-40eb-8e21-bfdf84c3176c" name="Application.Dependency">
+              <ArtifactNode Label="Application.Dependency" Category="CodeSchema_Project" Id="(Assembly=../Application.Dependency/Application.Dependency.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Application.Dependency)" Label="Application.Dependency.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="83a570c6-30ad-407e-b106-ff84576db07b" name="Application.UnitOfWork">
+          <references>
+            <reference Id="b2055a62-6e75-481e-aff0-20a1bad4d733" name="Application.UnitOfWork">
+              <ArtifactNode Label="Application.UnitOfWork" Category="CodeSchema_Project" Id="(Assembly=../Application.UnitOfWork/Application.UnitOfWork.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Application.UnitOfWork)" Label="Application.UnitOfWork.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
