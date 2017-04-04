@@ -2,3 +2,13 @@ D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Data.Persistence.dll
 D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Data.Persistence.pdb
 D:\Project\NlayerDDD\Data.Persistence\obj\Debug\Data.Persistence.dll
 D:\Project\NlayerDDD\Data.Persistence\obj\Debug\Data.Persistence.pdb
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Domain.Entities.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Domain.Entities.pdb
+D:\Project\NlayerDDD\Data.Persistence\obj\Debug\Data.Persistence.csprojResolveAssemblyReference.cache
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\Data.Persistence.dll.config
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\EntityFramework.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\MySql.Data.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\MySql.Data.Entity.EF6.dll
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\EntityFramework.xml
+D:\Project\NlayerDDD\Data.Persistence\bin\Debug\EntityFramework.SqlServer.xml

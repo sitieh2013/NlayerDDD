@@ -2,3 +2,15 @@ D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Repository.dll
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Repository.pdb
 D:\Project\NlayerDDD\Data.Repository\obj\Debug\Data.Repository.dll
 D:\Project\NlayerDDD\Data.Repository\obj\Debug\Data.Repository.pdb
+D:\Project\NlayerDDD\Data.Repository\obj\Debug\Data.Repository.csprojResolveAssemblyReference.cache
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Entities.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Entities.pdb
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Repository.dll.config
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Persistence.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Repository.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Persistence.pdb
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Repository.pdb
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.xml
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
