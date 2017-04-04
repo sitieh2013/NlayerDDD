@@ -1,11 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Domain.Entities.Entity" Collapsed="true">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Entity.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Domain.Entities.Impart" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Entities.Entity" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="0.812" />
+        <Point X="1.125" Y="0.812" />
+        <Point X="1.125" Y="1.626" />
+        <Point X="1.125" Y="1.626" />
+        <Point X="1.125" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Impart.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Risk" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Domain.Entities.Probability" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Entities.Entity" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="0.625" />
+        <Point X="0.375" Y="0.625" />
+        <Point X="0.375" Y="3.938" />
+        <Point X="0.75" Y="3.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Probability.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Risk" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Domain.Entities.Risks" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAEQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Risks.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MyImpart" />
+      <Property Name="MyProbability" />
+      <Property Name="MyProject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Domain.Entities.Project" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="Domain.Entities.Entity" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="0.812" />
+        <Point X="6.688" Y="0.812" />
+        <Point X="6.688" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Risk" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="System.Collections.Generic.ICollection&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
