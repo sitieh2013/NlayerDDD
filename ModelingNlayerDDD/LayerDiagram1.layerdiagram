@@ -37,6 +37,9 @@
             <dependencyFromLayerToLayer Id="68a6d202-465c-4abb-a2db-6873db4b6948" direction="Forward">
               <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
             </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="8ae1f9ed-90af-4dc7-b451-4a1a50413b34" direction="Forward">
+              <layerMoniker Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" />
+            </dependencyFromLayerToLayer>
           </dependencyToLayers>
           <references>
             <reference Id="7310e81d-c512-428f-b544-cb6bd550ce86" name="Domain.Repository">
@@ -103,6 +106,9 @@
             </dependencyFromLayerToLayer>
             <dependencyFromLayerToLayer Id="23b3dfc5-f7f6-42aa-80eb-984a910625cf" direction="Forward">
               <layerMoniker Id="89638cb1-3740-4d75-9713-3da699f195ab" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="476b268d-bc1c-4683-8b01-5002b5a27994" direction="Forward">
+              <layerMoniker Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" />
             </dependencyFromLayerToLayer>
           </dependencyToLayers>
           <references>
