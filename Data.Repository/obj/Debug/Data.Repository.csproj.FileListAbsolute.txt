@@ -14,3 +14,5 @@ D:\Project\NlayerDDD\Data.Repository\bin\Debug\Data.Persistence.pdb
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Repository.pdb
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.xml
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Core.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Core.pdb

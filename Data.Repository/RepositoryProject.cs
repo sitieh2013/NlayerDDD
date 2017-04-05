@@ -3,6 +3,8 @@ using Domain.Repository;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using Domain.Core.Paged;
+using System;
 
 namespace Data.Repository
 {
@@ -35,6 +37,14 @@ namespace Data.Repository
         public void UpdateProject(Project project)
         {
             Repository_Saves(project);
+        }
+
+        public IPage<Project> GetProjectPages(IPageable paged)
+        {
+            int count;
+            var item = BaseRepository_GetPage(i => i.Id, paged.CurrentPage, paged.PageSize, out count);
+
+            return new Page<Project>(item, paged.CurrentPage, paged.PageSize, count);
         }
     }
 }

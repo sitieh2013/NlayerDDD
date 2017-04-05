@@ -60,5 +60,31 @@ namespace Data.Repository
             entry.State = EntityState.Modified;
             _contexto.SaveChanges();
         }
+
+        protected IEnumerable<T> BaseRepository_GetPage(Expression<Func<T, long>> orderbyExpression, int currentPage,
+            int pageSize, out int totalCount)
+        {
+            return BaseRepositoryGetPage(orderbyExpression, currentPage, pageSize, out totalCount);
+        }
+
+        protected IEnumerable<T> BaseRepository_GetPage(Expression<Func<T, long>> orderbyExpression,
+            Expression<Func<T, bool>> expression, int currentPage, int pageSize, out int totalCount)
+        {
+            totalCount = _dbSet.Count(expression);
+            return
+                _dbSet.Where(expression).OrderByDescending(expression)
+                    .Skip((currentPage - 1) * pageSize)
+                    .Take(pageSize);
+        }
+
+        private IEnumerable<T> BaseRepositoryGetPage(Expression<Func<T, long>> orderbyExpression, int currentPage,
+            int pageSize, out int totalCount)
+        {
+            totalCount = _dbSet.Count();
+            return
+                _dbSet.OrderByDescending(orderbyExpression)
+                    .Skip((currentPage - 1) * pageSize)
+                    .Take(pageSize);
+        }
     }
 }

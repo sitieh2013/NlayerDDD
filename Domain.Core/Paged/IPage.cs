@@ -6,6 +6,6 @@ namespace Domain.Core.Paged
     {
         long TotalCount { get; set; }
 
-        List<T> Items { get; set; }
+        IEnumerable<T> Items { get; set; }
     }
 }

@@ -1,11 +1,14 @@
-﻿using Domain.Entities;
+﻿using Domain.Core.Paged;
+using Domain.Entities;
 using System.Collections.Generic;
 
 namespace Domain.Repository
 {
     public interface IRepositoryRisk
     {
-        List<Risks> GetListAll();
+        IEnumerable<Risks> GetListAll();
+
+        IPage<Risks> GetRiskPages(IPageable paged);
 
         Risks GetRisks(int id);
 

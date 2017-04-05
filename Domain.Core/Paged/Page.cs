@@ -5,7 +5,7 @@ namespace Domain.Core.Paged
 {
     public class Page<T> : IPage<T>
     {
-        public Page(List<T> items, int pageIndex, int pageSize, long totalCount)
+        public Page(IEnumerable<T> items, int pageIndex, int pageSize, long totalCount)
         {
             Items = items;
             TotalCount = totalCount;
@@ -14,7 +14,7 @@ namespace Domain.Core.Paged
             PageSize = pageSize;
         }
 
-        public List<T> Items { get; set; }
+        public IEnumerable<T> Items { get; set; }
 
         public int CurrentPage { get; set; }
 

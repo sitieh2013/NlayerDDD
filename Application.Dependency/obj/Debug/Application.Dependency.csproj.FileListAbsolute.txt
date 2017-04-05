@@ -2,3 +2,4 @@ D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Dependency.dll
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Dependency.pdb
 D:\Project\NlayerDDD\Application.Dependency\obj\Debug\Application.Dependency.dll
 D:\Project\NlayerDDD\Application.Dependency\obj\Debug\Application.Dependency.pdb
+D:\Project\NlayerDDD\Application.Dependency\obj\Debug\Application.Dependency.csprojResolveAssemblyReference.cache

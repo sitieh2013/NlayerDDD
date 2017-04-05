@@ -7,3 +7,5 @@ D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Repository.dll
 D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Entities.dll
 D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Repository.pdb
 D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Entities.pdb
+D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Core.dll
+D:\Project\NlayerDDD\Domain.UnitOfWork\bin\Debug\Domain.Core.pdb

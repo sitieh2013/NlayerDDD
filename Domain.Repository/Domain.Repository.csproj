@@ -41,6 +41,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Domain.Core\Domain.Core.csproj">
+      <Project>{87d426b4-60fa-40dc-bfe1-9e37ecc8a673}</Project>
+      <Name>Domain.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain.Entities\Domain.Entities.csproj">
       <Project>{d9faca9f-33b2-45b4-838a-749a4aaaba9e}</Project>
       <Name>Domain.Entities</Name>
