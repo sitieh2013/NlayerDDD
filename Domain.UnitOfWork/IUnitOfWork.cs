@@ -4,14 +4,12 @@ namespace Domain.UnitOfWork
 {
     public interface IUnitOfWork
     {
-        IRepositoryImpart RepositoryImpart { get; set; }
+        IRepositoryImpart RepositoryImpart { get;}
        
-        IRepositoryProbability RepositoryProbability { get; set; }
+        IRepositoryProbability RepositoryProbability { get; }
 
-        IRepositoryProject RepositoryProject { get; set; }
+        IRepositoryProject RepositoryProject { get; }
 
-        IRepositoryRisk RepositoryRisk { get; set; }
-
-        void SaveChanges();
+        IRepositoryRisk RepositoryRisk { get; }
     }
 }

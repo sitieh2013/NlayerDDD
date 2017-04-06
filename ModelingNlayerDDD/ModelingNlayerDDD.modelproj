@@ -45,9 +45,9 @@
       <Name>Application.Dependency</Name>
       <Project>{c3c1254c-f2d9-4256-9c69-e755f22b8510}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\Application.UnitOfWork\Application.UnitOfWork.csproj">
-      <Name>Application.UnitOfWork</Name>
-      <Project>{fd3b4176-1943-4862-aec0-7a9d05dd0e0e}</Project>
+    <ProjectReference Include="..\Application.Services\Application.Services.csproj">
+      <Name>Application.Services</Name>
+      <Project>{c35720af-3438-4069-8286-f4ad72eb00c8}</Project>
     </ProjectReference>
     <ProjectReference Include="..\Data.Persistence\Data.Persistence.csproj">
       <Name>Data.Persistence</Name>
@@ -56,6 +56,10 @@
     <ProjectReference Include="..\Data.Repository\Data.Repository.csproj">
       <Name>Data.Repository</Name>
       <Project>{1b51755d-47f6-46b3-bcba-878d67b65c4d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.UnitOfWork\Data.UnitOfWork.csproj">
+      <Name>Data.UnitOfWork</Name>
+      <Project>{60250760-65a0-4a67-8587-b577e3c2b5ce}</Project>
     </ProjectReference>
     <ProjectReference Include="..\Domain.Core\Domain.Core.csproj">
       <Name>Domain.Core</Name>

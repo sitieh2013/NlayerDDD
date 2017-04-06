@@ -1,0 +1,5 @@
+D:\Project\NlayerDDD\Application.Services\bin\Debug\Application.Services.dll
+D:\Project\NlayerDDD\Application.Services\bin\Debug\Application.Services.pdb
+D:\Project\NlayerDDD\Application.Services\obj\Debug\Application.Services.csprojResolveAssemblyReference.cache
+D:\Project\NlayerDDD\Application.Services\obj\Debug\Application.Services.dll
+D:\Project\NlayerDDD\Application.Services\obj\Debug\Application.Services.pdb

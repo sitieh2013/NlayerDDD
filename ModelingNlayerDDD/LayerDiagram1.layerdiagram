@@ -124,11 +124,47 @@
             </reference>
           </references>
         </layer>
+        <layer Id="b833ade2-6ada-4a60-916d-1dc3fa3812d2" name="Data.UnitOfWork">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="9328b1de-6d4e-4378-89a4-42279112d867" direction="Forward">
+              <layerMoniker Id="a5871e9e-040c-409d-ba0f-83f2a30c4732" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="10c331d0-859b-49b2-a778-f5872152ca7c" direction="Forward">
+              <layerMoniker Id="aa9a1a2f-2e1a-4af9-b946-e53a14493079" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="45db5e68-0116-4177-9175-6182a374e354" direction="Forward">
+              <layerMoniker Id="89638cb1-3740-4d75-9713-3da699f195ab" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="4cc7c1ae-0e8f-484f-88af-17f0c2cee748" direction="Forward">
+              <layerMoniker Id="377ca91c-ae23-4d0c-8d89-7f6e7156fb59" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="8433491a-e15d-43ce-9c5a-ff5a1ffdcd53" name="Data.UnitOfWork">
+              <ArtifactNode Label="Data.UnitOfWork" Category="CodeSchema_Project" Id="(Assembly=../Data.UnitOfWork/Data.UnitOfWork.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Data.UnitOfWork)" Label="Data.UnitOfWork.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
       </childLayers>
     </layer>
     <layer Id="d7f48423-b9a7-46b1-8ef8-3472a2a1f920" name="Application">
       <childLayers>
         <layer Id="9cb1d5bd-0962-4c81-aa27-794267d98e91" name="Application.Dependency">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="6eb9c852-70a3-4568-8a25-eade15c09d52" direction="Forward">
+              <layerMoniker Id="a5871e9e-040c-409d-ba0f-83f2a30c4732" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="4d3dc81d-c1de-494b-894b-0a756c7e4215" direction="Forward">
+              <layerMoniker Id="b833ade2-6ada-4a60-916d-1dc3fa3812d2" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
           <references>
             <reference Id="ec522a93-e768-40eb-8e21-bfdf84c3176c" name="Application.Dependency">
               <ArtifactNode Label="Application.Dependency" Category="CodeSchema_Project" Id="(Assembly=../Application.Dependency/Application.Dependency.csproj)">
@@ -142,13 +178,13 @@
             </reference>
           </references>
         </layer>
-        <layer Id="83a570c6-30ad-407e-b106-ff84576db07b" name="Application.UnitOfWork">
+        <layer Id="88d7524e-5c47-404a-9a5a-b2a16204b7fc" name="Application.Services">
           <references>
-            <reference Id="b2055a62-6e75-481e-aff0-20a1bad4d733" name="Application.UnitOfWork">
-              <ArtifactNode Label="Application.UnitOfWork" Category="CodeSchema_Project" Id="(Assembly=../Application.UnitOfWork/Application.UnitOfWork.csproj)">
+            <reference Id="c76ba60a-a546-4b00-8392-18dd2752899e" name="Application.Services">
+              <ArtifactNode Label="Application.Services" Category="CodeSchema_Project" Id="(Assembly=../Application.Services/Application.Services.csproj)">
                 <Category Ref="File" />
               </ArtifactNode>
-              <ExpandedNode Id="(Assembly=Application.UnitOfWork)" Label="Application.UnitOfWork.dll" Category="CodeSchema_Assembly">
+              <ExpandedNode Id="(Assembly=Application.Services)" Label="Application.Services.dll" Category="CodeSchema_Assembly">
                 <Category Ref="FileSystem.Category.FileOfType.dll" />
                 <LinkCategory Ref="Produces" />
                 <LinkCategory Ref="Represents" />
