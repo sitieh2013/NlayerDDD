@@ -1,4 +1,6 @@
 ﻿using System.Web.Http;
+using Application.Services;
+using Domain.Services;
 using Ninject;
 using Domain.UnitOfWork;
 using Data.UnitOfWork;
@@ -11,8 +13,9 @@ namespace Application.Dependency.Web
         {
             var kernel = new StandardKernel(); 
 
-            //kernel.Bind<IDocumentService>().To<DocumentService>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWorkContext>();
+            kernel.Bind<IServiceProject>().To<ServiceProject>();
+
             config.DependencyResolver = new NinjectHttp(kernel);
         }
     }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Engineering", "01. Engineering", "{BAA17F6B-5AA8-486C-B290-95D01A3A00DB}"
 EndProject
@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data", "03. Data", "{97
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Application", "04. Application", "{7A6368C8-BC4D-43DA-95D2-35C1E492A80C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Presentation", "05. Presentation", "{C1EBE3B6-DEBA-447D-8051-4A16071A971D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Presentation", "06. Presentation", "{C1EBE3B6-DEBA-447D-8051-4A16071A971D}"
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingNlayerDDD", "ModelingNlayerDDD\ModelingNlayerDDD.modelproj", "{842052BA-94AA-4824-BBE9-97DAE773BB17}"
 EndProject
@@ -36,6 +36,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{49CE0082-5C93-4CC1-83AF-5D140D20ACA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.UnitOfWork", "Data.UnitOfWork\Data.UnitOfWork.csproj", "{60250760-65A0-4A67-8587-B577E3C2B5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTest", "Application.UnitTest\Application.UnitTest.csproj", "{A1E3338B-E145-4D9F-B220-646710DBB2C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. ServicesWeb", "05. ServicesWeb", "{76DCB0EF-FDD2-4712-B163-0053CB6611C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.RestApi", "Services.RestApi\Services.RestApi.csproj", "{2E0CC7A1-DBBA-4728-9C3E-9C1078614456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation.Web", "Presentation.Web\Presentation.Web.csproj", "{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +99,18 @@ Global
 		{60250760-65A0-4A67-8587-B577E3C2B5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60250760-65A0-4A67-8587-B577E3C2B5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60250760-65A0-4A67-8587-B577E3C2B5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E3338B-E145-4D9F-B220-646710DBB2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E3338B-E145-4D9F-B220-646710DBB2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E3338B-E145-4D9F-B220-646710DBB2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E3338B-E145-4D9F-B220-646710DBB2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0CC7A1-DBBA-4728-9C3E-9C1078614456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0CC7A1-DBBA-4728-9C3E-9C1078614456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0CC7A1-DBBA-4728-9C3E-9C1078614456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0CC7A1-DBBA-4728-9C3E-9C1078614456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,5 +128,8 @@ Global
 		{C35720AF-3438-4069-8286-F4AD72EB00C8} = {7A6368C8-BC4D-43DA-95D2-35C1E492A80C}
 		{49CE0082-5C93-4CC1-83AF-5D140D20ACA5} = {574E8D06-3CFE-450F-BE01-0FEFFB983761}
 		{60250760-65A0-4A67-8587-B577E3C2B5CE} = {9700814E-C08C-48BE-A446-7B02F90EC2F2}
+		{A1E3338B-E145-4D9F-B220-646710DBB2C1} = {7A6368C8-BC4D-43DA-95D2-35C1E492A80C}
+		{2E0CC7A1-DBBA-4728-9C3E-9C1078614456} = {76DCB0EF-FDD2-4712-B163-0053CB6611C0}
+		{3C8E4D2C-4FFA-42A5-A73C-9EA4B2B68E1A} = {C1EBE3B6-DEBA-447D-8051-4A16071A971D}
 	EndGlobalSection
 EndGlobal

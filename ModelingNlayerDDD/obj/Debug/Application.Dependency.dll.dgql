@@ -1,1 +1,0 @@
-*/"Microsoft.FileSystem.ProcessFile"("D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Dependency.dll")/ + FilePath.Equals("D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Dependency.dll")/"LayerDesigner.LoadArchitecture"/ */"Microsoft.AllNodes"

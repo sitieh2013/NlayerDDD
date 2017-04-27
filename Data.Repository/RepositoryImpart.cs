@@ -6,7 +6,8 @@ using System.Linq;
 
 namespace Data.Repository
 {
-    public class RepositoryImpart : Repository<Impart>, IRepositoryImpart
+    public class RepositoryImpart : Repository<Impart>, 
+                                    IRepositoryImpart
     {
         public RepositoryImpart(DbContext context) : base(context)
         {

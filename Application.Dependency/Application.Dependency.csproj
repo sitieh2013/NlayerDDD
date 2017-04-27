@@ -63,6 +63,10 @@
       <Project>{60250760-65a0-4a67-8587-b577e3c2b5ce}</Project>
       <Name>Data.UnitOfWork</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Domain.Services\Domain.Services.csproj">
+      <Project>{49ce0082-5c93-4cc1-83af-5d140d20aca5}</Project>
+      <Name>Domain.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain.UnitOfWork\Domain.UnitOfWork.csproj">
       <Project>{6ba9fe43-236c-49ab-81f1-ef600e0e5bde}</Project>
       <Name>Domain.UnitOfWork</Name>

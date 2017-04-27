@@ -6,3 +6,4 @@ D:\Project\NlayerDDD\Domain.Services\bin\Debug\Domain.Core.dll
 D:\Project\NlayerDDD\Domain.Services\bin\Debug\Domain.Entities.dll
 D:\Project\NlayerDDD\Domain.Services\bin\Debug\Domain.Core.pdb
 D:\Project\NlayerDDD\Domain.Services\bin\Debug\Domain.Entities.pdb
+D:\Project\NlayerDDD\Domain.Services\obj\Debug\Domain.Services.csprojResolveAssemblyReference.cache

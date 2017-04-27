@@ -73,9 +73,21 @@
       <Name>Domain.Repository</Name>
       <Project>{764f54bb-c1e6-43f4-bb13-48474d2f8255}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Domain.Services\Domain.Services.csproj">
+      <Name>Domain.Services</Name>
+      <Project>{49ce0082-5c93-4cc1-83af-5d140d20aca5}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Domain.UnitOfWork\Domain.UnitOfWork.csproj">
       <Name>Domain.UnitOfWork</Name>
       <Project>{6ba9fe43-236c-49ab-81f1-ef600e0e5bde}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentation.Web\Presentation.Web.csproj">
+      <Name>Presentation.Web</Name>
+      <Project>{3c8e4d2c-4ffa-42a5-a73c-9ea4b2b68e1a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Services.RestApi\Services.RestApi.csproj">
+      <Name>Services.RestApi</Name>
+      <Project>{2e0cc7a1-dbba-4728-9c3e-9c1078614456}</Project>
     </ProjectReference>
   </ItemGroup>
 </Project>

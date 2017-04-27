@@ -1,7 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4732fdba-f9a4-4a17-8fe3-4ad2b97d14f3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
   <layers>
-    <layer Id="badd55ca-cccb-4e23-94a0-a2148f546695" name="Presentation" />
+    <layer Id="badd55ca-cccb-4e23-94a0-a2148f546695" name="Presentation">
+      <childLayers>
+        <layer Id="711b0d99-d224-4d46-8871-e9ffb0b4452f" name="Presentation.Web">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="fb05ee75-9bab-47f9-b2d2-e41cf3f1c3a8" direction="Forward">
+              <layerMoniker Id="9cb1d5bd-0962-4c81-aa27-794267d98e91" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="b3a25111-bc2d-49ae-a10f-a28d94db7598" direction="Forward">
+              <layerMoniker Id="ff368fe7-3d19-497d-8dba-38cb5294429e" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="70313a95-6920-44be-8699-ac5d811d792f" name="Presentation.Web">
+              <ArtifactNode Label="Presentation.Web" Category="CodeSchema_Project" Id="(Assembly=../Presentation.Web/Presentation.Web.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Presentation.Web)" Label="Presentation.Web.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
     <layer Id="b0c29c18-6564-4843-978d-a1a6dd73c41c" name="Domain">
       <childLayers>
         <layer Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" name="Domain.Core">
@@ -66,6 +91,28 @@
                 <Category Ref="File" />
               </ArtifactNode>
               <ExpandedNode Id="(Assembly=Domain.UnitOfWork)" Label="Domain.UnitOfWork.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="366d5107-8c9c-4f87-938d-fbcd9052bbd0" name="Domain.Services">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="2d139772-5248-4a2c-a0b8-10409115fa18" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="3acaaffb-c059-4a05-bfd4-c4df9700ad89" direction="Forward">
+              <layerMoniker Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="de28dc9f-5f59-4235-bdec-41915419cc93" name="Domain.Services">
+              <ArtifactNode Label="Domain.Services" Category="CodeSchema_Project" Id="(Assembly=../Domain.Services/Domain.Services.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Domain.Services)" Label="Domain.Services.dll" Category="CodeSchema_Assembly">
                 <Category Ref="FileSystem.Category.FileOfType.dll" />
                 <LinkCategory Ref="Produces" />
                 <LinkCategory Ref="Represents" />
@@ -164,6 +211,12 @@
             <dependencyFromLayerToLayer Id="4d3dc81d-c1de-494b-894b-0a756c7e4215" direction="Forward">
               <layerMoniker Id="b833ade2-6ada-4a60-916d-1dc3fa3812d2" />
             </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="6a72b4b0-d062-4127-a406-13e0c2780166" direction="Forward">
+              <layerMoniker Id="366d5107-8c9c-4f87-938d-fbcd9052bbd0" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="5a52bb3f-6d11-4277-8abd-d8acb8f398b9" direction="Forward">
+              <layerMoniker Id="88d7524e-5c47-404a-9a5a-b2a16204b7fc" />
+            </dependencyFromLayerToLayer>
           </dependencyToLayers>
           <references>
             <reference Id="ec522a93-e768-40eb-8e21-bfdf84c3176c" name="Application.Dependency">
@@ -179,12 +232,55 @@
           </references>
         </layer>
         <layer Id="88d7524e-5c47-404a-9a5a-b2a16204b7fc" name="Application.Services">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="2b0449e0-395e-4bf3-abab-1983e977fb09" direction="Forward">
+              <layerMoniker Id="a5871e9e-040c-409d-ba0f-83f2a30c4732" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="0708106e-3cf0-43fe-8cfc-cce5de7f8bd2" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="4bd283bb-7a3b-43a3-9129-ca0335904e36" direction="Forward">
+              <layerMoniker Id="54243fd9-d520-49e0-a939-b94d5c2f3c4d" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="b0e83f0c-e199-4591-9d45-a0973e35c07a" direction="Forward">
+              <layerMoniker Id="aa9a1a2f-2e1a-4af9-b946-e53a14493079" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="6f1dbc98-05ec-4779-a649-7e3b3720f980" direction="Forward">
+              <layerMoniker Id="366d5107-8c9c-4f87-938d-fbcd9052bbd0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
           <references>
             <reference Id="c76ba60a-a546-4b00-8392-18dd2752899e" name="Application.Services">
               <ArtifactNode Label="Application.Services" Category="CodeSchema_Project" Id="(Assembly=../Application.Services/Application.Services.csproj)">
                 <Category Ref="File" />
               </ArtifactNode>
               <ExpandedNode Id="(Assembly=Application.Services)" Label="Application.Services.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="099fc352-66b5-4863-b87e-b97c97fa0723" name="Services Web">
+      <childLayers>
+        <layer Id="ff368fe7-3d19-497d-8dba-38cb5294429e" name="Services.RestApi">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="c3d9e587-e7c4-4b79-a0e2-534cd7f22a06" direction="Forward">
+              <layerMoniker Id="5f1ddf8a-9145-4154-882f-d3c02f9ee502" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="3d084952-2b01-41c7-b9b6-bf1947c6789a" direction="Forward">
+              <layerMoniker Id="366d5107-8c9c-4f87-938d-fbcd9052bbd0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="b78af086-dd37-4bf7-8d1b-65bd05cedb4a" name="Services.RestApi">
+              <ArtifactNode Label="Services.RestApi" Category="CodeSchema_Project" Id="(Assembly=../Services.RestApi/Services.RestApi.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Services.RestApi)" Label="Services.RestApi.dll" Category="CodeSchema_Assembly">
                 <Category Ref="FileSystem.Category.FileOfType.dll" />
                 <LinkCategory Ref="Produces" />
                 <LinkCategory Ref="Represents" />

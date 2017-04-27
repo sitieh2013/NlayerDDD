@@ -8,7 +8,8 @@ namespace Data.Persistence
     {
         public DataBaseContext() : base(Connection.Connected()) {}
 
-        public DataBaseContext(EnumDataProvider dataProvider) : base(Connection.Connected(dataProvider)) {}
+        public DataBaseContext(EnumDataProvider dataProvider) :
+            base(Connection.Connected(dataProvider)) {}
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

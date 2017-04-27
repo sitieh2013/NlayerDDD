@@ -4,13 +4,11 @@ D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Data.UnitTest.pdb
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Data.Persistence.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Data.Repository.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Entities.dll
-D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\EntityFramework.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Repository.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Data.Persistence.pdb
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Data.Repository.pdb
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Entities.pdb
-D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\EntityFramework.xml
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Repository.pdb
 D:\Project\NlayerDDD\Data.UnitTest\obj\Debug\Data.UnitTest.csprojResolveAssemblyReference.cache
