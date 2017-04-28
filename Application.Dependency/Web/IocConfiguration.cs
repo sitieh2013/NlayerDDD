@@ -7,9 +7,9 @@ using Data.UnitOfWork;
 
 namespace Application.Dependency.Web
 {
-    public class IocConfiguration
+    public static class IocConfiguration
     {
-        public static void RegisterIoc(HttpConfiguration config)
+        public static void Register(HttpConfiguration config)
         {
             var kernel = new StandardKernel(); 
 

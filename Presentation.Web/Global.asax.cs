@@ -15,7 +15,7 @@ namespace Presentation.Web
     {
         protected void Application_Start()
         {
-            IocConfiguration.RegisterIoc(GlobalConfiguration.Configuration);
+            IocConfiguration.Register(GlobalConfiguration.Configuration);
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
