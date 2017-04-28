@@ -62,3 +62,5 @@ D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.Razor.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.dll
+D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.xml

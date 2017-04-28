@@ -30,3 +30,6 @@ D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Data.Persistence.pdb
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Data.Repository.pdb
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Domain.Services.dll
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Domain.Services.pdb
+D:\Project\NlayerDDD\Application.Dependency\bin\Debug\System.Web.Http.WebHost.dll
+D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Newtonsoft.Json.xml
+D:\Project\NlayerDDD\Application.Dependency\bin\Debug\System.Web.Http.WebHost.xml
