@@ -4,7 +4,6 @@ D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Data.Persistence.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Data.Repository.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Entities.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Repository.dll
-D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Newtonsoft.Json.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\EntityFramework.dll
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Core.dll
@@ -12,7 +11,6 @@ D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Data.Persistence.pdb
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Data.Repository.pdb
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Entities.pdb
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Repository.pdb
-D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Newtonsoft.Json.xml
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\EntityFramework.xml
 D:\Project\NlayerDDD\Application.UnitTest\bin\Debug\Domain.Core.pdb

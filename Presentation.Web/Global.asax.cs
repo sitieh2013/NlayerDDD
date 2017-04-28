@@ -15,8 +15,8 @@ namespace Presentation.Web
     {
         protected void Application_Start()
         {
-            IocConfiguration.Register(GlobalConfiguration.Configuration);
-            WebApiConfig.Register(GlobalConfiguration.Configuration);
+            //IocConfiguration.Register(GlobalConfiguration.Configuration);
+           // WebApiConfig.Register(GlobalConfiguration.Configuration);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

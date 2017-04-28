@@ -40,7 +40,6 @@ D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Owin.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
-D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Razor.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.Razor.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.dll
@@ -57,7 +56,6 @@ D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Newtonsoft.Json.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Razor.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.Razor.xml
