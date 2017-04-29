@@ -9,9 +9,9 @@ namespace Application.Services
 {
     public class ServiceProject : IServiceProject
     {
-        private readonly IUnitOfWork _unit;
+        private readonly IUnitOfWorkRepository _unit;
 
-        public ServiceProject(IUnitOfWork unit)
+        public ServiceProject(IUnitOfWorkRepository unit)
         {
             _unit = unit;
         }

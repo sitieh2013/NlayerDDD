@@ -2,7 +2,7 @@
 
 namespace Domain.UnitOfWork
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWorkRepository
     {
         IRepositoryImpart RepositoryImpart { get;}
        

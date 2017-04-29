@@ -13,7 +13,7 @@ namespace Application.Dependency.Web
         {
             var kernel = new StandardKernel(); 
 
-            kernel.Bind<IUnitOfWork>().To<UnitOfWorkContext>();
+            kernel.Bind<IUnitOfWorkRepository>().To<UnitOfWorkRepositoryContext>();
 
             kernel.Bind<IServiceProject>().To<ServiceProject>();
 

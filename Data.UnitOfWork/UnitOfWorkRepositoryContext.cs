@@ -6,11 +6,11 @@ using System.Data.Entity;
 
 namespace Data.UnitOfWork
 {
-    public class UnitOfWorkContext : IUnitOfWork
+    public class UnitOfWorkRepositoryContext : IUnitOfWorkRepository
     {
         private readonly DbContext _dataBaseContext;
 
-        public UnitOfWorkContext()
+        public UnitOfWorkRepositoryContext()
         {
             _dataBaseContext = new DataBaseContext();
         }
