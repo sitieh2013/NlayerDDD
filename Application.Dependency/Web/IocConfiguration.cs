@@ -14,6 +14,7 @@ namespace Application.Dependency.Web
             var kernel = new StandardKernel(); 
 
             kernel.Bind<IUnitOfWork>().To<UnitOfWorkContext>();
+
             kernel.Bind<IServiceProject>().To<ServiceProject>();
 
             config.DependencyResolver = new NinjectHttp(kernel);

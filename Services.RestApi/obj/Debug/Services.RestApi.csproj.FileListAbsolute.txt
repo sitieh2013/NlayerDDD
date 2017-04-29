@@ -21,3 +21,5 @@ D:\Project\NlayerDDD\Services.RestApi\bin\Debug\System.Web.Http.xml
 D:\Project\NlayerDDD\Services.RestApi\bin\Debug\System.Web.Http.WebHost.xml
 D:\Project\NlayerDDD\Services.RestApi\obj\Debug\Services.RestApi.dll
 D:\Project\NlayerDDD\Services.RestApi\obj\Debug\Services.RestApi.pdb
+D:\Project\NlayerDDD\Services.RestApi\bin\Debug\System.Web.Mvc.dll
+D:\Project\NlayerDDD\Services.RestApi\bin\Debug\System.Web.Mvc.xml

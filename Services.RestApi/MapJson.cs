@@ -1,28 +1,37 @@
 ﻿using System.Collections.Generic;
+using System.Net.Http;
+using System.Text;
+using System.Web.Http.Results;
+using System.Web.Mvc;
 using Domain.Entities;
 using Newtonsoft.Json;
 
 namespace Services.RestApi
 {
-    public class MapJson<T> where T:Entity
+    public class MapJson<T> where T : Entity
     {
-        public string MapJsonSerialize(T entity)
+        private readonly Encoding _encoding;
+        private readonly JsonSerializerSettings _jsonSerializerSettings;
+        private readonly HttpRequestMessage _httpRequestMessage;
+
+        public MapJson()
         {
-            return MapJsonSerializeCommon(entity);
+            _encoding = Encoding.UTF8;
+            _jsonSerializerSettings = new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            };
+            _httpRequestMessage = new HttpRequestMessage();
         }
 
-        public string MapJsonSerialize(List<T> entities)
+        public JsonResult<T> MapJsonSerialize(T entity)
         {
-            return MapJsonSerializeCommon(entities);
+            return new JsonResult<T>(entity, _jsonSerializerSettings, _encoding, _httpRequestMessage);
         }
 
-        private static string MapJsonSerializeCommon(object entity)
+        public JsonResult<List<T>> MapJsonSerializeList(List<T> entity)
         {
-            return JsonConvert.SerializeObject(entity, Formatting.Indented,
-                        new JsonSerializerSettings()
-                        {
-                            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
-                        });
+            return new JsonResult<List<T>>(entity, _jsonSerializerSettings, _encoding, _httpRequestMessage);
         }
     }
 }

@@ -18,57 +18,27 @@ namespace Data.UnitOfWork
         private IRepositoryImpart _repositoryImpart;
         public IRepositoryImpart RepositoryImpart
         {
-            get
-            {
-                if (_repositoryImpart == null)
-                {
-                    _repositoryImpart = new RepositoryImpart(_dataBaseContext);
-                }
-
-                return _repositoryImpart;
-            }
+            get { return _repositoryImpart ?? (_repositoryImpart = new RepositoryImpart(_dataBaseContext)); }
         }
 
         private IRepositoryProbability _repositoryProbability;
         public IRepositoryProbability RepositoryProbability
         {
-            get
-            {
-                if (_repositoryProbability == null)
-                {
-                    _repositoryProbability = new RepositoryProbability(_dataBaseContext);
-                }
-
-                return _repositoryProbability;
+            get {
+                return _repositoryProbability ?? (_repositoryProbability = new RepositoryProbability(_dataBaseContext));
             }
         }
 
         private IRepositoryProject _repositoryProject;
         public IRepositoryProject RepositoryProject
         {
-            get
-            {
-                if (_repositoryProject == null)
-                {
-                    _repositoryProject = new RepositoryProject(_dataBaseContext);
-                }
-
-                return _repositoryProject;
-            }
+            get { return _repositoryProject ?? (_repositoryProject = new RepositoryProject(_dataBaseContext)); }
         }
 
         private IRepositoryRisk _repositoryRisk;
         public IRepositoryRisk RepositoryRisk
         {
-            get
-            {
-                if (_repositoryRisk == null)
-                {
-                    _repositoryRisk = new RepositoryRisk(_dataBaseContext);
-                }
-
-                return _repositoryRisk;
-            }
+            get { return _repositoryRisk ?? (_repositoryRisk = new RepositoryRisk(_dataBaseContext)); }
         }
     }
 }

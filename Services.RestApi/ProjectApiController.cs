@@ -1,34 +1,34 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Text;
 using System.Web.Http;
 using System.Web.Http.Description;
+using System.Web.Http.Results;
+using System.Web.Mvc;
 using Domain.Entities;
 using Domain.Services;
+using Newtonsoft.Json;
 
 namespace Services.RestApi
 {
     public class ProjectApiController: ApiController
     {
         private readonly IServiceProject _serviceProject;
-        private readonly MapJson<Entity> _mapJson;
+        private readonly MapJson<Project> _mapJson;
 
         public ProjectApiController(IServiceProject serviceProject)
         {
             _serviceProject = serviceProject;
-            _mapJson = new MapJson<Entity>();
+            _mapJson = new MapJson<Project>();
         }
 
-        // GET: api/project/get
-        public IEnumerable<Project> Get()
+        // POST api/projectapi/getall
+        public JsonResult<List<Project>> GetAll()
         {
-            return _serviceProject.GetProject();
-        }
-
-        // GET: api/project/getall
-        public string GetAll()
-        {
-            var lista = new List<Entity>(_serviceProject.GetProject().ToList());
-            return _mapJson.MapJsonSerialize(lista);
+            var temp = _serviceProject.GetProject().ToList();
+            return _mapJson.MapJsonSerializeList(temp);
         }
 
         // POST api/project/post
