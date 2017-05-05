@@ -16,3 +16,7 @@ D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.xml
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Core.dll
 D:\Project\NlayerDDD\Data.Repository\bin\Debug\Domain.Core.pdb
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\NlayerDDD\Data.Repository\bin\Debug\Microsoft.AspNet.Identity.Core.xml

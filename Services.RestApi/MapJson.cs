@@ -2,7 +2,6 @@
 using System.Net.Http;
 using System.Text;
 using System.Web.Http.Results;
-using System.Web.Mvc;
 using Domain.Entities;
 using Newtonsoft.Json;
 

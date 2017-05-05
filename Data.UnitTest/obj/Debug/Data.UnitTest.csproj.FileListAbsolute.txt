@@ -20,3 +20,7 @@ D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\MySql.Data.Entity.EF6.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Core.dll
 D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Domain.Core.pdb
+D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\NlayerDDD\Data.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml

@@ -28,12 +28,12 @@ namespace Presentation.Web.Controllers
             UserManager = userManager;
         }
 
-        public ApplicationUserManager UserManager {
+        private ApplicationUserManager UserManager {
             get
             {
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             }
-            private set
+            set
             {
                 _userManager = value;
             }
