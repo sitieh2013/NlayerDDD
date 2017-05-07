@@ -85,3 +85,5 @@ D:\Project\NlayerDDD\Presentation.Web\bin\Data.Persistence.pdb
 D:\Project\NlayerDDD\Presentation.Web\bin\Data.Repository.pdb
 D:\Project\NlayerDDD\Presentation.Web\bin\MySql.Data.dll
 D:\Project\NlayerDDD\Presentation.Web\bin\MySql.Data.Entity.EF6.dll
+D:\Project\NlayerDDD\Presentation.Web\bin\Application.Security.dll
+D:\Project\NlayerDDD\Presentation.Web\bin\Application.Security.pdb

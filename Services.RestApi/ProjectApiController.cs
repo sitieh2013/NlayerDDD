@@ -8,6 +8,7 @@ using Domain.Services;
 
 namespace Services.RestApi
 {
+    [Authorize]
     public class ProjectApiController: ApiController
     {
         private readonly IServiceProject _serviceProject;

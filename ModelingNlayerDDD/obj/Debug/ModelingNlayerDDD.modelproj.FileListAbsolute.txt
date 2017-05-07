@@ -64,3 +64,5 @@ D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Microsoft.Owin.Security.OAuth.x
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.dll
 D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\System.Web.Http.WebHost.xml
+D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Application.Security.dll
+D:\Project\NlayerDDD\ModelingNlayerDDD\bin\Debug\Application.Security.pdb

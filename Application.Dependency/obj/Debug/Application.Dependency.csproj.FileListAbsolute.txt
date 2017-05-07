@@ -37,3 +37,5 @@ D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Microsoft.AspNet.Identity.
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Security.dll
+D:\Project\NlayerDDD\Application.Dependency\bin\Debug\Application.Security.pdb
